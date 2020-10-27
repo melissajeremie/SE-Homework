@@ -1,3 +1,10 @@
 body {
   background-color: lavender;
 }
+
+form {
+  padding: 15px;
+  font-style: italic;
+  border-style: groove;
+  font-weight: 900px;
+}
