@@ -9,4 +9,22 @@ form {
   border-style: groove;
   font-weight: 900px;
   background-color: white;
+  width: 50%
+}
+
+input[type=button] {
+  color: darkgreen;
+  background-color: lightgray;
+  padding: 10px;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input[type=button]:hover {
+  color: hotpink;
+  background-color: black;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 20px;
 }
