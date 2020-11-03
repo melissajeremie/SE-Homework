@@ -27,4 +27,18 @@ input[type=button]:hover {
   font-family: monospace;
   font-weight: 600;
   font-size: 20px;
+  border: solid;
+  border-color: hotpink;
+}
+input[type=text]:focus {
+  background-color: pink;
+  transition: 1s;
+}
+input[type=email]:focus {
+  background-color: pink;
+  transition: 1s;
+}
+textarea:focus {
+  background-color: pink;
+  transition: 1s;
 }
