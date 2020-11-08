@@ -1,6 +1,7 @@
 body {
   background-color: lavender;
   font-family: courier;
+  background-image: url(/Users/mkj/desktop/SE-Homework/Pre-work Final/CSS/Images/watercolorflowertransparent-background.png);
 }
 
 form {
@@ -13,12 +14,14 @@ form {
 }
 
 input[type=button] {
-  color: darkgreen;
-  background-color: lightgray;
+  color: purple;
+  background-color: white;
   padding: 10px;
-  font-family: helvetica;
+  font-family: monospace;
   font-weight: bold;
   font-size: 16px;
+  border: solid;
+  border-color: purple;
 }
 
 input[type=button]:hover {
@@ -26,7 +29,7 @@ input[type=button]:hover {
   background-color: black;
   font-family: monospace;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   border: solid;
   border-color: hotpink;
 }
