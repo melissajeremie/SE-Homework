@@ -1,7 +1,8 @@
 body {
   background-color: lavender;
   font-family: courier;
-  background-image: url(/Users/mkj/desktop/SE-Homework/Pre-work Final/CSS/Images/watercolorflowertransparent-background.png);
+  background-image: url(https://i.pinimg.com/originals/0b/97/db/0b97dbd08090954c4c17fc1a848787f5.jpg);
+  background-position: center;
 }
 
 form {
