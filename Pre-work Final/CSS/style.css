@@ -12,12 +12,57 @@ body {
   margin: auto;
 }
 
+.banner {
+  font-size: 45px;
+}
 
 .navitem {
-padding-top: 5px;
-padding-right: 30px;
-padding-bottom: 5px;
-padding-right: 30px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  color: #d5b608;
+}
+
+.welcome, .stories, .contactpg, .interests, .about {
+  background: rgba(255, 236, 239, 0.3);
+  padding: 10px;
+  margin: auto;
+  width: 75%;
+}
+
+#intro-pic {
+  width: 50%;
+  height: 50%;
+}
+
+#intro2 {
+  width: 50%;
+  height: 50%;
+}
+
+#aboutpic {
+  width: 35%;
+}
+
+#jogpic {
+  width: 50%;
+  height: 50%;
+}
+
+.stories img {
+  width: 35%;
+}
+
+.stories a {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.stories a:hover {
+  color: hotpink;
 }
 
 form {
@@ -26,7 +71,7 @@ form {
   border-style: groove;
   font-weight: 900px;
   background-color: white;
-  width: 50%
+  /* width: 50% */
 }
 
 input[type=button] {
