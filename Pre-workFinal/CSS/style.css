@@ -25,9 +25,9 @@ body {
 }
 
 .welcome, .stories, .contactpg, .interests, .about {
-  background: rgba(255, 236, 239, 0.3);
+  background: rgba(252, 222, 226, 0.4);
   padding: 10px;
-  margin: auto;
+  margin: 0 auto;
   width: 75%;
 }
 
