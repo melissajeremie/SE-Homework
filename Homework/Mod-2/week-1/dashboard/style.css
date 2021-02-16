@@ -1,0 +1,29 @@
+#main {
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 150px;
+    width: 80vw;
+    height: 80vh;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+
+#sidebar{
+grid-row: 1 / 4;
+text-align: center;
+height: 70vh;
+background-color: lightgreen;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+p, li{
+    padding: 20px;
+}
