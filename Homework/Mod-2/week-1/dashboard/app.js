@@ -36,7 +36,7 @@ class Reviews extends React.Component{
         return (
             <div id="reviews">
                 <p>Reviews</p>
-                <h5>1,281</h5>
+                <p>1,281</p>
             </div>
         )
     }
@@ -47,7 +47,7 @@ class AvgRating extends React.Component{
         return (
             <div id="avg-rating">
                 <p>Average Rating</p>
-                <h6>4.6</h6>
+                <p>4.6</p>
             </div>
         )
     }
@@ -71,7 +71,8 @@ class SiteVisits extends React.Component{
         return (
             <div id="visitors">
                 <p>Website visitors</p>
-                <h5>821</h5>
+                <p>821</p>
+                <div id="inner-visit"></div>
             </div>
         )
     }
