@@ -1,6 +1,11 @@
 console.log('js js js');
 
-const groceries = [ ]
+const groceries = [ 
+    {item: 'Eggs', brand: 'Land O Lakes', units: 'Dozen', quantity: 1, isPurchased: false},
+    {item: 'Cheddar cheese', brand: 'Kerrygold', units: '8oz', quantity: 1, isPurchased: false},
+    {item: 'Butter', brand: 'Kerrygold', units: '16oz', quantity: 2, isPurchased: false},
+    {item: 'Spinach', brand: 'Trader Joes', units: '16oz', quantity: 20, isPurchased: false},
+];
 
 class App extends React.Component{
     constructor(props) {
@@ -20,7 +25,7 @@ class App extends React.Component{
         return (
             <div>
                 <h1>Groceries</h1>
-                {console.log(this.state.groceries)}
+                
 
                 <form>
                     <label>Item:</label>
@@ -39,7 +44,15 @@ class App extends React.Component{
 
                 <h3>Available Today:</h3>
                 <ul>
-                    {this.state.products}
+                    {
+                    this.state.groceries.map(product => {
+                        // return(
+                        //     <div>
+                                <li>{product.item} - {product.brand}</li>
+                            // </div>
+                    //     )
+                    })
+                    }
                 </ul>
             </div>
         )
