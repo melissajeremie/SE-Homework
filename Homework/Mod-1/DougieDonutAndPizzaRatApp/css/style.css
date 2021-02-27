@@ -1,18 +1,22 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h1 {
     color: rgb(79, 71, 160);
 }
-#bronx {
+#bronx-div {
 background-color: #afeeee;
 }
-#brooklyn {
+#brooklyn-div {
     background-color: lightsalmon;
 }
-#manhattan {
+#manhattan-div {
     background-color: #afeeee;
 }
-#queens {
+#queens-div {
     background-color: lightsalmon;
 }
-#statenIsland {
+#statenIsland-div {
     background-color: #afeeee;
 }
