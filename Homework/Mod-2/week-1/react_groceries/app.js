@@ -25,7 +25,6 @@ class App extends React.Component{
         return (
             <div>
                 <h1>Groceries</h1>
-                
 
                 <form>
                     <label>Item:</label>
